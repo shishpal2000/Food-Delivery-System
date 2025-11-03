@@ -17,26 +17,6 @@ Styling	Tailwind CSS
 State Handling	React Hooks
 API Layer	Custom API Hook (useGeneralApiCall)
 Auth	Token-based (localStorage)
-UI Style	Clean Admin + Card based design
-
-src/
- ├── app/
- │   ├── customer/
- │   │   └── page.tsx        # Customer Panel
- │   ├── restaurant/
- │   │   └── page.tsx        # Restaurant Panel
- │   ├── driver/
- │   │   └── page.tsx        # Driver Panel
- │   └── layoutComponents.tsx
- │
- ├── services/
- │   └── useGeneralApiCall.ts   # API wrapper (GET, POST, PUT)
- │
- ├── apiConfig/
- │   └── notification.ts        # Toast alerts
- │
- └── styles/
-     └── globals.css
 
 🚦 User Flows
 ✅ 1. Customer Panel
